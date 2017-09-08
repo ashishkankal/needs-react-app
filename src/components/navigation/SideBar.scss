@@ -1,0 +1,38 @@
+.sidebar{
+    .navigation-parent{
+        list-style-type: none;
+        .navigation-parent-header{
+            font-size: 16px;
+            
+                
+        }
+        .navigation-child{
+            list-style-type: none;
+            padding: 0px 2px;
+            li{
+                margin: 5px;
+                
+                a{
+                    padding: 5px;
+                    text-decoration: none;
+                    color: black;
+                }
+                .sidebarSubAnchor{
+                    font-size: 14px;
+                    padding: 5px 10px !important;
+                    
+                }
+                a:hover{
+                    background-color: #E6E6E6;
+                }
+                .active{
+                    border-left: 4px solid green;
+                    padding-left: 6px;
+                    font-weight: bold;
+                }
+
+
+            }
+        }
+    }
+}

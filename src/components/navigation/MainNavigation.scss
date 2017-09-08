@@ -1,0 +1,29 @@
+.main-navigation{
+    .fa{
+        font-size: 10px;
+        margin-top: -4px;
+    }
+    padding-left: 20px;
+    .main-navigation-list{
+        list-style-type: none;
+            margin-left: 120px;
+            margin-top: 30px;
+            text-align: center;
+        .list-item{
+            float: left;
+            font-weight: 400;
+            padding: 0px 20px 0px 10px;
+        }
+        .list-item:hover{
+            color:#f0d886;
+            cursor: pointer;
+        }
+        .list-item:first-child{
+            padding-left: 0px;
+        }
+        .list-item:last-child{
+            padding-right: 0px;
+        }
+            
+    }
+}

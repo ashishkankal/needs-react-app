@@ -1,0 +1,17 @@
+.cream{
+    
+}
+.color-swatch-container{
+    float: left;
+    margin: 20px;
+    .color-swatch{
+        background-color: #555;
+        width: 200px;
+        height: 200px;
+        }
+    .color-name{
+        padding: 5px;
+        text-align: center;
+        font-weight: 400;
+    }
+}
